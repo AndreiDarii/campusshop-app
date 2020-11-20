@@ -64,7 +64,7 @@ const data = {
             brand: 'Adidas',
             rating: 3.5,
             numReviews: 11,
-            description: 'high quality product'
+            description: 'high quality merge product'
         }
 
     ]
