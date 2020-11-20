@@ -29,7 +29,7 @@ const data = {
             image: './images/p4.jpg',
             price: 155,
             brand: 'Polo',
-            rating: 4.5,
+            rating: 3.5,
             numReviews: 13,
             description: 'high quality product'
         },
@@ -40,7 +40,7 @@ const data = {
             image: './images/p1.jpg',
             price: 120,
             brand: 'Polo',
-            rating: 5.0,
+            rating: 2.0,
             numReviews: 22,
             description: 'high quality product'
         },
