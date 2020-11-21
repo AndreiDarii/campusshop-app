@@ -1,0 +1,26 @@
+{
+  "name": "project_new",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000a\u0000m\u0000p\u0000u\u0000s\u0000s\u0000h\u0000o\u0000p\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiDarii/campusshop-app.git"
+  },
+  "author": "Andrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiDarii/campusshop-app/issues"
+  },
+  "homepage": "https://github.com/AndreiDarii/campusshop-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
