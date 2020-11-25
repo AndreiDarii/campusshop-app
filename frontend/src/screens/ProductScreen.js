@@ -5,13 +5,12 @@ import { detailsProduct } from '../actions/productActions';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import Rating from '../components/Rating';
-import { productDetailsReducer } from '../reducers/productReducers';
 
 export default function ProductScreen(props) {
     const dispatch = useDispatch();
     const productId = props.match.params.id;
     const [qty, setQty] = useState(1);
-    const productDetails = useSelector(state => state.productDetails);
+    const productDetails = useSelector((state) => state.productDetails);
     const { loading, error, product } = productDetails;
 
     useEffect(() => {
@@ -20,7 +19,7 @@ export default function ProductScreen(props) {
 
     const addToCartHandler = () => {
         props.history.push(`/cart/${productId}?qty=${qty}`);
-    }
+    };
     return (
         <div>
             {loading ? (<LoadingBox></LoadingBox>)

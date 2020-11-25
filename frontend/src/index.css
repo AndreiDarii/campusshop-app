@@ -154,9 +154,18 @@ a.brand{
   flex: 2 1 50rem;
 }
 
+.min-30{
+  min-width: 30rem;
+}
+
 /* Image */
 img{
   border-radius: 0.5rem;
+}
+
+img.small{
+  max-width: 5rem;
+  width: 100%;
 }
 
 img.medium{
@@ -201,10 +210,12 @@ img.large{
 
 /* Alert */
 .success{
+  padding: 1rem;
   color:#20a020;
 }
 
 .error{
+  padding: 1rem;
   color: #a02020
 }
 
@@ -215,11 +226,13 @@ img.large{
 }
 
 .alert-info{
+  padding: 1rem;
   color: #2020a0;
   background-color: #e0e0ff;
 }
 
 .alert-danger{
+  padding: 1rem;
   color: #a02020;
   background-color: #ffe0e0;
 }
