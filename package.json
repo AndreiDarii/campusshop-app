@@ -5,7 +5,7 @@
   "description": "��#\u0000 \u0000c\u0000a\u0000m\u0000p\u0000u\u0000s\u0000s\u0000h\u0000o\u0000p\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js" 
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/AndreiDarii/campusshop-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
