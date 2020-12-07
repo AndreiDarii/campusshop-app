@@ -74,14 +74,12 @@ export default function ProductEditScreen(props) {
         bodyFormData.append('image', file);
         setLoadingUpload(true);
         try {
-            console.log("Im in the try part")
             const { data } = await Axios.post('/api/uploads', bodyFormData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                     Authorization: `Bearer ${userInfo.token}`
                 }
             })
-            console.log("I got the data: ", data)
             setImage(data);
             setLoadingUpload(false);
         } catch (error) {
