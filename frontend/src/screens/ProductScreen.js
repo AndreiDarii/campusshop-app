@@ -50,6 +50,15 @@ export default function ProductScreen(props) {
                                 <div className="card card-body">
                                     <ul>
                                         <li>
+                                            Seller {' '}
+                                            <h2>
+                                                <Link to={product.seller ? `/seller/${product.seller._id}` : '#'}>
+                                                    {product.seller ? product.seller.seller.name : 'Seller Not Assigned'}
+                                                </Link>
+                                            </h2>
+                                            <Rating rating={product.seller ? product.seller.seller.rating : 'Seller Not Assigned'} numReviews={product.seller ? product.seller.seller.numReviews: 'Seller Not Assigned'}></Rating>
+                                        </li>
+                                        <li>
                                             <div className="row">
                                                 <div>Price</div>
                                                 <div className="price">${product.price}</div>
