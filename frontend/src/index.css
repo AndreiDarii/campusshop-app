@@ -362,7 +362,7 @@ img.large {
 
 .search button{
     border-radius: 0 0.5rem 0.5rem 0;
-    border-right: none;
+    border-left: none;
     margin-right: 0.5rem;
 }
 

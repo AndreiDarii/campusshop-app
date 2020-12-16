@@ -44,7 +44,7 @@ function App() {
       <div className="grid-container">
         <header className="row">
           <div>
-            <Link className="brand" to="/">CampusShop</Link>
+            <Link className="brand" to="/">campusshopUO</Link>
           </div>
           <div>
             <Route render={({ history }) => (
